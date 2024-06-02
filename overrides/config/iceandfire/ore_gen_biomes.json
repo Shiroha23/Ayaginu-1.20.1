@@ -1,0 +1,16 @@
+{
+  "biomes": [
+    [
+      {
+        "type": "BIOME_TAG",
+        "negate": false,
+        "value": "iceandfire:silver_ore"
+      },
+      {
+        "type": "BIOME_TAG",
+        "negate": false,
+        "value": "iceandfire:deepslate_silver_ore"
+      }
+    ]
+  ]
+}
