@@ -220,6 +220,11 @@
 			[general.types.leaves_type.ars_elemental]
 				yellow_archwood = true
 
+			[general.types.leaves_type.undergarden]
+				smogstem = true
+				wigglewood = true
+				grongle = true
+
 		[general.types.wood_type]
 
 			[general.types.wood_type.ars_nouveau]
@@ -313,6 +318,11 @@
 			[general.types.wood_type.forbidden_arcanus]
 				aurum = true
 				edelwood = true
+
+			[general.types.wood_type.undergarden]
+				smogstem = true
+				wigglewood = true
+				grongle = true
 
 	#Disables specific entries
 	[general.entries]
