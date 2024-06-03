@@ -1,0 +1,12 @@
+{
+  "type": "botania:orechid_ignem",
+  "input": {
+    "type": "block",
+    "block": "mysticalagriculture:soulstone"
+  },
+  "output": {
+    "type": "block",
+    "block": "mysticalagradditions:soulium_ore"
+  },
+  "weight": 1
+}

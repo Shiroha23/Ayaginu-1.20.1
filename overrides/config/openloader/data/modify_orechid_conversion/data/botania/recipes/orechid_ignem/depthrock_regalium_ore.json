@@ -1,0 +1,12 @@
+{
+  "type": "botania:orechid_ignem",
+  "input": {
+    "type": "block",
+    "block": "undergarden:depthrock"
+  },
+  "output": {
+    "type": "block",
+    "block": "undergarden:depthrock_regalium_ore"
+  },
+  "weight": 1
+}

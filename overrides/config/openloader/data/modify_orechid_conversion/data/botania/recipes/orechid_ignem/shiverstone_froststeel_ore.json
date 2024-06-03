@@ -1,0 +1,12 @@
+{
+  "type": "botania:orechid_ignem",
+  "input": {
+    "type": "block",
+    "block": "undergarden:shiverstone"
+  },
+  "output": {
+    "type": "block",
+    "block": "undergarden:shiverstone_froststeel_ore"
+  },
+  "weight": 1
+}

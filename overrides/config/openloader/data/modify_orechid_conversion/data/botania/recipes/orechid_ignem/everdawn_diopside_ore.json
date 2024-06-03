@@ -1,0 +1,12 @@
+{
+  "type": "botania:orechid_ignem",
+  "input": {
+    "type": "block",
+    "block": "blue_skies:lunar_stone"
+  },
+  "output": {
+    "type": "block",
+    "block": "blue_skies:everdawn_diopside_ore"
+  },
+  "weight": 1
+}

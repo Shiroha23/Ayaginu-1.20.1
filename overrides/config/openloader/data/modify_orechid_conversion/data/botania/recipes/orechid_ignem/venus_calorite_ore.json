@@ -1,0 +1,12 @@
+{
+  "type": "botania:orechid_ignem",
+  "input": {
+    "type": "block",
+    "block": "ad_astra:venus_sand"
+  },
+  "output": {
+    "type": "block",
+    "block": "ad_astra:venus_calorite_ore"
+  },
+  "weight": 1
+}

@@ -1,0 +1,12 @@
+{
+  "type": "botania:orechid_ignem",
+  "input": {
+    "type": "block",
+    "block": "botania:livingrock"
+  },
+  "output": {
+    "type": "block",
+    "block": "mythicbotany:dragonstone_ore"
+  },
+  "weight": 1
+}

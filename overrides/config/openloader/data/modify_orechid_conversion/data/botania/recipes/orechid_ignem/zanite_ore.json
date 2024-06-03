@@ -1,0 +1,12 @@
+{
+  "type": "botania:orechid_ignem",
+  "input": {
+    "type": "block",
+    "block": "aether:holystone"
+  },
+  "output": {
+    "type": "block",
+    "block": "aether:zanite_ore"
+  },
+  "weight": 1
+}

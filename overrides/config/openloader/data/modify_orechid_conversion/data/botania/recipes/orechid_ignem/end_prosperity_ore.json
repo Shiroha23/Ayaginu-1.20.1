@@ -1,0 +1,12 @@
+{
+  "type": "botania:orechid_ignem",
+  "input": {
+    "type": "block",
+    "block": "minecraft:end_stone"
+  },
+  "output": {
+    "type": "block",
+    "block": "mysticalagradditions:end_prosperity_ore"
+  },
+  "weight": 1
+}

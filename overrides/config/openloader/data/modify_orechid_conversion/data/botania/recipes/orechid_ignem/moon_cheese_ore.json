@@ -1,0 +1,12 @@
+{
+  "type": "botania:orechid_ignem",
+  "input": {
+    "type": "block",
+    "block": "ad_astra:moon_stone"
+  },
+  "output": {
+    "type": "block",
+    "block": "ad_astra:moon_cheese_ore"
+  },
+  "weight": 1
+}
