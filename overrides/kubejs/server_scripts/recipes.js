@@ -1,13 +1,10 @@
 ServerEvents.tags("item", event => {
 
-    //添加统一石墨
-    event.add('forge:ingots/hop_graphite', 'biggerreactors:graphite_ingot')
-    event.add('forge:dusts/hop_graphite', 'biggerreactors:graphite_dust')
-  
     //添加橡胶tag
     event.add('forge:rubber', 'thermal:cured_rubber')
-  
-  })
+    event.add('forge:rubber', 'techreborn:rubber')
+
+})
 
 ServerEvents.recipes(event => {
     
@@ -41,20 +38,39 @@ ServerEvents.recipes(event => {
       ]
     })
 
-//统一石墨
-    event.replaceInput({}, '#forge:ingots/hop_graphite', 'immersiveengineering:ingot_hop_graphite')  
-
 //移除煤炭烧制石墨
     event.remove({id: 'biggerreactors:smelting/graphite_ingot'})  
+    event.remove({id: 'biggerreactors:blasting/graphite_ingot'})  
 
-//石墨精华统一合成
+//石墨精华合成修改
     event.remove({id: 'mysticalagriculture:essence/common/graphite_ingot'})
-    event.shaped('immersiveengineering:ingot_hop_graphite', [
+    event.shaped('biggerreactors:graphite_ingot', [
         'XXX',
         'X X',
         'XXX'
     ], {
         X: 'mysticalagriculture:graphite_essence'
+    })
+
+//统一石墨/石墨粉
+    event.shapeless('biggerreactors:graphite_ingot',['immersiveengineering:ingot_hop_graphite'])
+    event.shapeless('immersiveengineering:ingot_hop_graphite',['biggerreactors:graphite_ingot'])
+    event.shapeless('biggerreactors:graphite_dust',['immersiveengineering:dust_hop_graphite'])
+    event.shapeless('immersiveengineering:dust_hop_graphite',['biggerreactors:graphite_dust'])
+
+//统一橡胶
+    event.shapeless('thermal:rubber',['techreborn:sap'])
+    event.shapeless('techreborn:sap',['thermal:rubber'])
+    event.shapeless('thermal:cured_rubber',['techreborn:rubber'])
+    event.shapeless('techreborn:rubber',['thermal:cured_rubber'])
+
+//橡胶精华合成科技复兴橡胶
+    event.shaped(Item.of('techreborn:rubber', 8), [
+        'X',
+        'X',
+        'X'
+    ], {
+        X: 'mysticalagriculture:rubber_essence'
     })
 
 //通量网络
@@ -225,187 +241,6 @@ event.shapeless('waystones:warp_dust',['ae2:ender_dust','mysticalagriculture:exp
         "result":{
             "item":"fluxnetworks:flux_dust",
             "count":9
-        }
-    })
-    
-//终极锭
-    event.custom({
-        "type": "extendedcrafting:shapeless_table",
-        "ingredients": [
-            {
-                "item": "beyond_earth:cheese"
-            },
-            {
-                "item": "minecraft:coal"
-            },
-            {
-                "item": "minecraft:diamond"
-            },
-            {
-                "item": "minecraft:emerald"
-            },
-            {
-                "item": "minecraft:lapis_lazuli"
-            },
-            {
-                "item": "minecraft:quartz"
-            },
-            {
-                "item": "minecraft:amethyst_shard"
-            },
-            {
-                "item": "minecraft:iron_ingot"
-            },
-            {
-                "item": "minecraft:copper_ingot"
-            },
-            {
-                "item": "minecraft:gold_ingot"
-            },
-            {
-                "item": "minecraft:redstone"
-            },
-            {
-                "item": "minecraft:netherite_scrap"
-            },
-            {
-                "item": "irons_spellbooks:arcane_salvage"
-            },
-            {
-                "item": "botania:elementium_ingot"
-            },
-            {
-                "item": "botania:dragonstone"
-            },
-            {
-                "item": "mekanism:fluorite_gem"
-            },
-            {
-                "item": "mekanism:ingot_osmium"
-            },
-            {
-                "item": "thermal:cinnabar"
-            },
-            {
-                "item": "thermal:niter"
-            },
-            {
-                "item": "thermal:sulfur"
-            },
-            {
-                "item": "thermal:tin_ingot"
-            },
-            {
-                "item": "thermal:lead_ingot"
-            },
-            {
-                "item": "thermal:silver_ingot"
-            },
-            {
-                "item": "thermal:nickel_ingot"
-            },
-            {
-                "item": "thermal:sapphire"
-            },
-            {
-                "item": "immersiveengineering:ingot_aluminum"
-            },
-            {
-                "item": "immersiveengineering:ingot_uranium"
-            },
-            {
-                "item": "blue_skies:pyrope_gem"
-            },
-            {
-                "item": "blue_skies:aquite"
-            },
-            {
-                "item": "blue_skies:diopside_gem"
-            },
-            {
-                "item": "blue_skies:charoite"
-            },
-            {
-                "item": "blue_skies:falsite_ingot"
-            },
-            {
-                "item": "blue_skies:ventium_ingot"
-            },
-            {
-                "item": "blue_skies:horizonite_ingot"
-            },
-            {
-                "item": "beyond_earth:desh_ingot"
-            },
-            {
-                "item": "beyond_earth:ostrum_ingot"
-            },
-            {
-                "item": "beyond_earth:calorite_ingot"
-            },
-            {
-                "item": "beyond_earth:ice_shard"
-            },
-            {
-                "item": "enigmaticlegacy:etherium_ingot"
-            },
-            {
-                "item": "undergarden:cloggrum_ingot"
-            },
-            {
-                "item": "undergarden:froststeel_ingot"
-            },
-            {
-                "item": "undergarden:utherium_crystal"
-            },
-            {
-                "item": "undergarden:regalium_crystal"
-            },
-            {
-                "item": "create:zinc_ingot"
-            },
-            {
-                "item": "mysticalagriculture:prosperity_shard"
-            },
-            {
-                "item": "mysticalagriculture:inferium_essence"
-            },
-            {
-                "item": "mysticalagriculture:soulium_dust"
-            },
-            {
-                "item": "tconstruct:cobalt_ingot"
-            },
-            {
-                "item": "tconstruct:earth_slime_crystal"
-            },
-            {
-                "item": "tconstruct:sky_slime_crystal"
-            },
-            {
-                "item": "tconstruct:ichor_slime_crystal"
-            },
-            {
-                "item": "tconstruct:ender_slime_crystal"
-            },
-            {
-                "item": "ae2:certus_quartz_crystal"
-            },
-            {
-                "item": "iceandfire:amythest_gem"
-            },
-            {
-                "item": "forbidden_arcanus:arcane_crystal"
-            },
-            {
-                "item": "forbidden_arcanus:xpetrified_orb"
-            },
-            {
-                "item": "blue_skies:moonstone"
-            }
-        ],
-        "result": {
-        "item": "extendedcrafting:the_ultimate_ingot"
         }
     })
     
