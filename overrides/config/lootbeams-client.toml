@@ -155,7 +155,7 @@
 		#If the player should be crouching to see extended advanced tooltips.
 		screen_tooltips_require_crouch = true
 		#If the name and rarity should be combined into one tooltip.
-		combine_name_and_rarity = false
+		combine_name_and_rarity = true
 
 	#Sounds
 	["Loot Beams".Sounds]
