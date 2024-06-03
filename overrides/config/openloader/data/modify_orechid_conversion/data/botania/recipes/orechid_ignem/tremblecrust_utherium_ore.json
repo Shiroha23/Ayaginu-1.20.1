@@ -2,7 +2,7 @@
   "type": "botania:orechid_ignem",
   "input": {
     "type": "block",
-    "block": "undergarden:depthrock"
+    "block": "undergarden:tremblecrust"
   },
   "output": {
     "type": "block",
