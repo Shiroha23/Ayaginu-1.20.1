@@ -31,6 +31,7 @@
     "forge:storage_blocks/raw_{material}"
   ],
   "materials": [
+    "ender_pearl",
     "aeternium",
     "aluminum",
     "amber",

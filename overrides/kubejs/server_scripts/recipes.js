@@ -4,6 +4,8 @@ ServerEvents.tags("item", event => {
     event.add('forge:rubber', 'thermal:cured_rubber')
     event.add('forge:rubber', 'techreborn:rubber')
 
+    event.add('forge:dusts/ender_pearl', 'enderio:powdered_ender_pearl')
+
 })
 
 ServerEvents.recipes(event => {
@@ -198,12 +200,12 @@ ServerEvents.recipes(event => {
     ],{
         A:'minecraft:amethyst_shard',
         B:'waystones:warp_dust',
-        C:'ars_nouveau:summon_focus'
+        C:'enigmaticlegacy:astral_dust'
     })
 
 //传送粉尘
 event.remove({output: 'waystones:warp_dust'})
-event.shapeless('waystones:warp_dust',['ae2:ender_dust','mysticalagriculture:experience_droplet'])
+event.shapeless('waystones:warp_dust',['techreborn:ender_eye_dust','mysticalagriculture:experience_droplet'])
 
 //通量粉尘
     event.custom({
