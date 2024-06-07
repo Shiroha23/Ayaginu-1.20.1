@@ -272,13 +272,6 @@
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
 
-	[building.vertical_planks]
-		#This feature disables itself if any of the following mods are loaded:
-		# - woodworks
-		#This is done to prevent content overlap.
-		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
-		"Ignore Anti Overlap" = false
-
 	[building.vertical_slabs]
 		#Should Walls and Panes attempt to connect to the side of Vertical Slabs?
 		"Allow Side Connections" = true

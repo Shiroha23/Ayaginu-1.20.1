@@ -1,6 +1,6 @@
 {
   "__comment": "Instructions: https://blakesmods.com/docs/cucumber/tags-config",
-  "forge:dusts/saltpeter": "bloodmagic:saltpeter",
+  "forge:dusts/saltpeter": "techreborn:saltpeter_dust",
   "forge:dusts/niter": "thermal:niter_dust",
   "forge:ingots/mithril": "null",
   "forge:ingots/platinum": "techreborn:platinum_ingot",

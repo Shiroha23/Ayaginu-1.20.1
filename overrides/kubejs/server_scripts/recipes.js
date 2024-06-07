@@ -207,30 +207,6 @@ ServerEvents.recipes(event => {
 event.remove({output: 'waystones:warp_dust'})
 event.shapeless('waystones:warp_dust',['techreborn:ender_eye_dust','mysticalagriculture:experience_droplet'])
 
-//时间之瓶
-event.remove({id:'tiab:time_in_a_bottle'})
-event.shaped('tiab:time_in_a_bottle',[
-    'DAD',
-    'BCB',
-    'DBD'
-],{
-    A:'minecraft:clock',
-    B:'minecraft:glass',
-    C:'ars_nouveau:source_gem_block',
-    D:'occultism:iesnium_ingot'
-})
-
-//量子捕捉器
-event.remove({id:'forbidden_arcanus:quantum_catcher'})
-event.shaped('forbidden_arcanus:quantum_catcher',[
-    'BAB',
-    'ACA',
-    'BAB'
-],{
-    A:'forbidden_arcanus:spawner_scrap',
-    B:'bloodmagic:ingot_hellforged',
-    C:'forbidden_arcanus:arcane_crystal_block'
-})
 
 //通量粉尘
     event.custom({
