@@ -1,10 +1,16 @@
 ServerEvents.tags("item", event => {
 
-    //添加橡胶tag
+//添加橡胶tag
     event.add('forge:rubber', 'thermal:cured_rubber')
     event.add('forge:rubber', 'techreborn:rubber')
 
     event.add('forge:dusts/ender_pearl', 'enderio:powdered_ender_pearl')
+
+// 配方修复：从 #forge:ingots/iron 中移除 辛辛那金锭
+    event.remove('forge:ingots/iron', 'betternether:cincinnasite_ingot')
+
+// 配方修复：从 #forge:ingots/iron 中移除 末影铁锭
+    event.remove('forge:ingots/iron', 'betterend:thallasium_ingot')
 
 })
 
