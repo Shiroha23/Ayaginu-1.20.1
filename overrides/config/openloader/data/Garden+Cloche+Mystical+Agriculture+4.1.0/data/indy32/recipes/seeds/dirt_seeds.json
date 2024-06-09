@@ -1,0 +1,37 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "mysticalagriculture:dirt_essence",
+      "count": 4
+    }
+  ],
+  "input": {
+    "item": "mysticalagriculture:dirt_seeds"
+  },
+  "soil": [
+	{
+	  "item": "mysticalagriculture:inferium_farmland"
+	},
+	{
+	  "item": "mysticalagriculture:prudentium_farmland"
+	},
+	{
+	  "item": "mysticalagriculture:tertium_farmland"
+	},
+	{
+	  "item": "mysticalagriculture:imperium_farmland"
+	},
+	{
+	  "item": "mysticalagriculture:supremium_farmland"
+	},
+	{
+	  "item": "mysticalagradditions:insanium_farmland"
+	}
+  ],
+  "time": 1200,
+  "render": {
+    "type": "crop",
+    "block": "mysticalagriculture:dirt_crop"
+  }
+}

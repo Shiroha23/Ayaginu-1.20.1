@@ -1,0 +1,25 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "mysticalagriculture:platinum_essence",
+      "count": 4
+    }
+  ],
+  "input": {
+    "item": "mysticalagriculture:platinum_seeds"
+  },
+  "soil": [
+	{
+	  "item": "mysticalagriculture:supremium_farmland"
+	},
+	{
+	  "item": "mysticalagradditions:insanium_farmland"
+	}
+  ],
+  "time": 1200,
+  "render": {
+    "type": "crop",
+    "block": "mysticalagriculture:platinum_crop"
+  }
+}

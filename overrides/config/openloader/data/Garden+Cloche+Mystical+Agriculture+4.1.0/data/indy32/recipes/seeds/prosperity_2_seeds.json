@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "mysticalagriculture:prosperity_shard",
+      "count": 2
+    }
+  ],
+  "input": {
+    "item": "mysticalagriculture:prosperity_seed_base"
+  },
+  "soil": {
+    "item": "mysticalagradditions:insanium_farmland"
+  },
+  "time": 1200,
+  "render": {
+    "type": "crop",
+    "block": "mysticalagriculture:zinc_crop"
+  }
+}

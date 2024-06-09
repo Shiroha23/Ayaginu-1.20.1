@@ -1,0 +1,17 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients":
+	[
+		{
+			"item": "immersiveengineering:hammer"
+		},
+		{
+			"item": "minecraft:netherite_ingot"
+		}
+	],
+	"result":
+	{
+		"item": "minecraft:netherite_scrap",
+		"count": 4
+	}
+}
