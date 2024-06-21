@@ -539,9 +539,6 @@
 			#How much following/detection range Redstone Monstrosities have, Default: 32.0
 			#Range: 1.0 ~ 2048.0
 			redstoneMonstrosityFollowRange = 32.0
-			#The furthest number of blocks or distance the target is at that Redstone Monstrosities can perform their spit attack, Default: 13.0
-			#Range: 4.0 ~ 2048.0
-			redstoneMonstrositySpitRange = 13.0
 			#Redstone Monstrosities attack HP percent damage, Default: 0.08
 			#Range: 0.0 ~ 1.0
 			redstoneMonstrosityHPPercentDamage = 0.08

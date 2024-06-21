@@ -55,6 +55,8 @@
 		necroCapeHunger = true
 		#Whether wearing both Nameless Cape and Crown will cause Undead mobs to be neutral, Default: true
 		namelessSetUndeadNeutral = true
+		#Necro Crown and Cape change textures when wearing a specific robe, Default: true
+		necroCapeChangeTexture = true
 
 ["Tools & Weapons"]
 

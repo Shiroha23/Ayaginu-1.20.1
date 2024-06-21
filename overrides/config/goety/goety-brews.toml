@@ -178,6 +178,9 @@
 	#Save Effects Soul Cost, Default: 50
 	#Range: > 1
 	saveEffectsCost = 50
+	#Evil Eye Soul Cost, Default: 50
+	#Range: > 1
+	evilEyeCost = 50
 
 [Curable]
 	#Whether Nyctophobia is curable via Milk or Wartful Egg, Default: false
@@ -186,4 +189,8 @@
 	sunAllergyCurable = false
 	#Whether Snow Skin is curable via Milk or Wartful Egg, Default: false
 	snowSkinCurable = false
+	#Whether Pressure is curable via Milk or Wartful Egg, Default: false
+	pressureCurable = false
+	#Whether Evil Eye is curable via Milk or Wartful Egg, Default: false
+	evilEyeCurable = false
 
