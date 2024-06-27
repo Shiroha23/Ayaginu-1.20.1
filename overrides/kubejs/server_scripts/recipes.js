@@ -229,22 +229,22 @@ event.shapeless('waystones:warp_dust',['techreborn:ender_eye_dust','mysticalagri
             "item":"thermal:signalum_dust"
             },
             {
+            "item":"thermal:signalum_dust"
+            },
+            {
+            "item":"thermal:signalum_dust"
+            },
+            {
+            "item":"thermal:lumium_dust"
+            },
+            {
             "item":"thermal:lumium_dust"
             },
             {
             "item":"thermal:lumium_dust"
             },
             {
-            "item":"mekanism:dust_lithium"
-            },
-            {
-            "item":"immersiveengineering:dust_hop_graphite"
-            },
-            {
-            "item":"enderio:ender_crystal_powder"
-            },
-            {
-            "item":"techreborn:chrome_dust"
+            "item":"thermal:enderium_dust"
             }
         ],
         "result":{
